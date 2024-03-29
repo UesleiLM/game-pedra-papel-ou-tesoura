@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>pedra, papel ou tesoura</title>
+</head>
+<body>
+    <p id="estatisticas"></p>
+    <h1>Escolha</h1>
+    
+    <div class="container">
+            <button onclick="Pedra()" id="pedra" value="pedra">
+            <img src="icon_pedra.png" alt="imagem pedra">
+            </button>
+            <button onclick="Papel()" id="papel" value="papel">
+                <img src="icon_papel.png" alt="imagem papel">
+            </button>
+            
+            <button onclick="Tesoura()" id="tesoura" value="tesoura">
+                <img src="icon_tesoura.png" alt="imagem tesoura">
+            </button>
+    </div>
+    <p id="sua_escolha"></p>
+    <br>
+    <h1>Escolha do computador</h1>
+
+    <img id="escolha_do_computador" src="" alt="escolha do computador">
+
+    <p id="resultado"></p>
+
+    <button onclick="Restart()"> Recomeçar</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>

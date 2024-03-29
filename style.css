@@ -1,0 +1,7 @@
+img{
+    height: 150px;
+}
+.container{
+    display: flex;
+    gap: 60px;
+}
