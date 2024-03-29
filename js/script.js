@@ -13,13 +13,13 @@ function Pedra(){
          texto = escolhas[x];
 
     if(texto === "pedra"){
-        document.getElementById("escolha_do_computador").src = "icon_pedra.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_pedra.png";
     }
     else if(texto === "papel"){
-        document.getElementById("escolha_do_computador").src = "icon_papel.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_papel.png";
     }
     else if(texto === "tesoura"){
-        document.getElementById("escolha_do_computador").src = "icon_tesoura.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_tesoura.png";
     }
 
     if(texto == pedra){
@@ -37,6 +37,7 @@ function Pedra(){
 
 
 }
+const newLocal = "icon_pedra.png";
 function Papel(){
     document.getElementById("estatisticas").innerHTML = "vitorias (" + vitorias + ") " +"<br>" + "derrotas (" + derrotas + ") " +"<br>"  + "empates (" + empates + ")";
     let papel = document.getElementById("papel").value;
@@ -47,13 +48,13 @@ function Papel(){
          texto = escolhas[x];
 
     if(texto === "pedra"){
-        document.getElementById("escolha_do_computador").src = "icon_pedra.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_pedra.png";
     }
     else if(texto === "papel"){
-        document.getElementById("escolha_do_computador").src = "icon_papel.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_papel.png";
     }
     else if(texto === "tesoura"){
-        document.getElementById("escolha_do_computador").src = "icon_tesoura.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_tesoura.png";
     }
 
     if(texto == pedra){
@@ -79,13 +80,13 @@ function Tesoura(){
          texto = escolhas[x];
 
     if(texto === "pedra"){
-        document.getElementById("escolha_do_computador").src = "icon_pedra.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_pedra.png";
     }
     else if(texto === "papel"){
-        document.getElementById("escolha_do_computador").src = "icon_papel.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_papel.png";
     }
     else if(texto === "tesoura"){
-        document.getElementById("escolha_do_computador").src = "icon_tesoura.png";
+        document.getElementById("escolha_do_computador").src = "assets/image/icon_tesoura.png";
     }
 
     if(texto == pedra){
